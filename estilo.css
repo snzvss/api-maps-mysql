@@ -1,0 +1,42 @@
+.root {
+	--background-color: #FFFFFF;
+	--background-color-bg: #2d2d2d;
+	--color-text: #000000;
+  }
+  
+  html {
+	box-sizing: border-box;
+  }
+  
+  *,
+  *:before,
+  *:after {
+	box-sizing: inherit;
+  }
+  
+  body {
+	font-family: 'Nunito Sans', sans-serif;
+	background-color: #f8f8f8;
+	color: #333;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 10%;
+    height: 50%;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+  }
+  
+  #map {
+	width: 100%;
+	height: 600px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
